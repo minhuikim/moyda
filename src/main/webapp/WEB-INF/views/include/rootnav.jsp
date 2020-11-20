@@ -21,6 +21,8 @@
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="/www">모이다</a>
+			<a class="navbar-brand" href="/www/home">메인페이지</a>
+			<a class="navbar-brand" href="/www/admin/main">관리자페이지</a>
 		</div>
 	</div>
 </div>

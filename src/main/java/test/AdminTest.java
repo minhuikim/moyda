@@ -28,27 +28,7 @@ public class AdminTest {
 	public void initTest() {
 		assertThat(dao, is(notNullValue()));
 	}
-	
-//	@Test
-//	@Transactional
-	public void updateTest() {
-		User u = User.builder().userNo(4).enabled(false).build();
-		System.out.println(u);
-		assertThat(dao.updateUser(u), is(1));
-		System.out.println("b");
-	}
-	
-//	@Test
-	public void findTest() {
-		assertThat(dao.findUserById(2), is(1));
-	}
-	
-//	@Test
-	public void findHostDetailTest() {
-		System.out.println(dao.findHostDetailById(1));
-		assertThat(dao.findHostDetailById(1), is(1));
-	}
-	
+
 //	@Test
 	public void hostJoinTest() {
 		for(int i=1; i<51; i++) {
@@ -83,4 +63,25 @@ public class AdminTest {
 			userDao.userJoin(user);
 		}
 	}
+	
+//	@Test
+//	@Transactional
+	public void updateTest() {
+		User u = User.builder().userNo(4).enabled(false).build();
+		System.out.println(u);
+		assertThat(dao.updateUser(u), is(1));
+		System.out.println("b");
+	}
+	
+//	@Test
+	public void findTest() {
+		assertThat(dao.findUserById(2), is(1));
+	}
+	
+//	@Test
+	public void findHostDetailTest() {
+		System.out.println(dao.findHostDetailById(1));
+		assertThat(dao.findHostDetailById(1), is(1));
+	}
+	
 }

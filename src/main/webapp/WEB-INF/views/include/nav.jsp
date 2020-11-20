@@ -23,16 +23,15 @@
 			<a class="navbar-brand" href="/www">모이다</a>
 		</div>
 			<ul class="nav navbar-nav" id="menu_parent">
-          		<li><a href="">게시판</a></li>
-          		<li><a href="/www/category">카테고리</a></li>
+          		<li><a href="/www/notImplemented">게시판(미)</a></li>
+          		<li><a href="/www/category">카테고리(미)</a></li>
           	</ul>
           	<ul class="nav navbar-nav" id="menu_parent">
-          		<li><a href="">검색공간</a></li>
-          		<li><a href="/www/notice?pageNo=${pageNo }">고객센터</a></li>
-          		<li><a href="">알림공간</a></li>
-          		<li><a href="">프로필공간</a></li>
-          		<li><a href="">닉네임</a></li>
-          		<li><a href="">로그아웃</a></li>
+          		<li><a href="/www/notice?pageNo=${pageNo }">고객센터(미)</a></li>
+          		<li><a href="/www/notImplemented">프로필공간(미)</a></li>
+          		<li><a href="/www/notImplemented">닉네임(미)</a></li>
+          		<li><a href="/www/notImplemented">로그아웃(미)</a></li>
+          		<li><a href="/www/admin/main">관리자</a></li>
 			</ul>
 	</div>
 </div>

@@ -70,7 +70,6 @@
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
 		</ol>
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
@@ -88,11 +87,6 @@
 					style="width: 600px; height: 200px; text-align: center; margin: 0 auto;">
 			</div>
 
-			<div class="item">
-				<img
-					src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSuvNi7ySap1YmUKHlXRKPg2lro1tndyP99OA&usqp=CAU"
-					alt="c" style="width: 600px; height: 200px; margin: 0 auto;">
-			</div>
 		</div>
 
 		<!-- Left and right controls -->

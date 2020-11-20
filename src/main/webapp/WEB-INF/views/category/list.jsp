@@ -31,26 +31,7 @@
 </head>
 <body>
 <div>
-	<div class="gallery">
-		<a target="_blank" href="https://www.naver.com/">
-		<img alt="설명" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqcOf2K9VP-VRfTPXrW4oIyk18hiTpXj3OjQ&usqp=CAU" width="300 px" height="200 px">	
-		</a>
-	<div class="desc"></div>
-	</div>	
+카테고리
 </div>
-	
-	<div class="gallery">
-		<a target="_blank" href="https://www.naver.com/">
-		<img alt="설명" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqcOf2K9VP-VRfTPXrW4oIyk18hiTpXj3OjQ&usqp=CAU" width="300 px" height="200 px">	
-		</a>
-	<div class="desc"></div>
-	</div>
-	
-	<div class="gallery">
-		<a target="_blank" href="https://www.naver.com/">
-		<img alt="설명" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTqcOf2K9VP-VRfTPXrW4oIyk18hiTpXj3OjQ&usqp=CAU" width="300 px" height="200 px">	
-		</a>
-	<div class="desc"></div>
-	</div>
 </body>
 </html>
